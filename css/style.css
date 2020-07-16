@@ -1,5 +1,8 @@
+html {
+	min-height: 100%;
+}
 body {
-	background-color: rgb(0,0,0);
+	background-image: repeating-linear-gradient(#011a27,#021c1e,#003b46);
 	font-family: 'Caveat', cursive;	
 }
 .grid {
@@ -41,7 +44,7 @@ img {
 	flex-wrap: wrap;
 	flex-shrink: 1;
 	flex-grow: 1;
-	background-color: white;
+	background-color: #eff7f3;
 	justify-content: center;
 	transform: rotateY(180deg);
 }
