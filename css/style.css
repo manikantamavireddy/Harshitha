@@ -30,9 +30,6 @@ img {
 	transition:transform 0.6s;
 	transform-style:preserve-3d;
 }
-.grid-item:hover .card {
-	transform:rotateY(180deg);
-}
 .card-back, .card-front {
 	position: absolute;
 	height: 100%;
