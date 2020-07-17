@@ -5,6 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
 		<title>Birthday wish</title>
+		<script>
+			window.onload = function() {
+			  var context = new AudioContext();
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -69,7 +74,6 @@
 		<footer>
 			<h1 style="color: orange">I wish a life gifted with endless bliss and success to one whose birthday i can remember without a reminder</h1>
 		</footer>
-		<iframe src="audio/silence.flac" type="audio/flac" allow="autoplay" style="display: none;"></iframe>
 		<audio autoplay loop>
 			<source src="audio/birthdayMusic.flac" type="audio/flac">
 		</audio>
